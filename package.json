@@ -1,0 +1,28 @@
+{
+  "name": "sars-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for SARS AI Chatbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "start": "node build/server.js",
+    "dev": "tsup --watch --onSuccess \"node build/server.js\"",
+    "run:inspector": "npx @modelcontextprotocol/inspector"
+  },
+  "keywords": [],
+  "author": "Devendra Pravinkumar Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.14",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
