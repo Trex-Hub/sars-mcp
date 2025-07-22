@@ -60,25 +60,6 @@ pnpm start
 npm start
 ```
 
-To test MCP tools locally, run:
-
-```bash
-npx @modelcontextprotocol/inspector
-
-## Available Tools
-
-1. **search_all_products**
-   - **Title**: Search All Products
-   - **Description**: Search for all products available.
-
-2. **search_in_product**
-   - **Title**: Perform a search within a product.
-   - **Description**: Search within a specific product.
-
-3. **search_in_product_details**
-   - **Title**: Perform a search within a product chunks.
-   - **Description**: Search within the chunks of a specific product by SKU and partner Id.
-
 ## License
 
 ISC
