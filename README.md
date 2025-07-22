@@ -1,6 +1,6 @@
 # SARS MCP Server
 
-A Model Context Protocol (MCP) server for SARS - AI shopping helper and assistant
+A Model Context Protocol (MCP) server for SARS - AI Space helper and assistant
 
 ## Prerequisites
 
