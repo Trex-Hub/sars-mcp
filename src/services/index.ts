@@ -77,7 +77,10 @@ export class ApiService {
   // Convenience methods for different HTTP methods
   async get<T>(endpoint: string, options?: RequestInit) {
     logger.info(`API call to ${endpoint} successful`);
-    return this.fetchData<T>(endpoint, { ...options, method: "GET" });
+    return this.fetchData<T>(endpoint, {
+      ...options,
+      method: "GET",
+    });
   }
 
   async post<T>(endpoint: string, body: any, options?: RequestInit) {
